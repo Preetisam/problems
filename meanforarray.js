@@ -20,5 +20,5 @@ const nums= [3,5,4,4,1,1,2,3]
 const num2=[1,2,3];
 mean1(nums)
 mean1(num2)
-console.log("Mean using first approch:"+mean(...[3,5,4,4,1,1,2,3]))
-console.log("Mean using first approch:"+mean(...[1,2,3]))
+console.log("Mean using second approch:"+mean(...[3,5,4,4,1,1,2,3]))
+console.log("Mean using second approch:"+mean(...[1,2,3]))
