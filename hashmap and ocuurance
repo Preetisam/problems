@@ -1,0 +1,29 @@
+const arr=[1,2,2,4,1,2,2,2,1,1,1,4];
+//key-.numbers
+//pair-.count of those numbers
+let hm =new Map();
+
+for(let i=0;i<arr.length;i++)
+{
+    if(hm.has(arr[i])==false)//value is not there in the hasmap
+    {
+        hm.set(arr[i,1]);//insert the value in the hashmap
+
+    }
+    else//update the count
+    {
+        let count = hm.get(arr[i]);
+        count++;
+        hm.set(arr[i],count);
+    }
+}
+console.table(hm)
+
+
+for(let [key,value]of hm)
+{
+    if(value ==1)//no of occuring time
+    {
+        console.log(`${key} is occuring${value} time`);
+    }
+}
