@@ -28,6 +28,6 @@ for (let[key,value] of hm)
 return modeArray;
 }
 
-console,log("Mode is" + ode(nums1))
+console,log("Mode is" + Mode(nums1))
 const nums3 =[1,2,3,4,2,3,4,2,3]
-console,log("Mode is" + ode(nums2))
+console,log("Mode is" + Mode(nums2))
