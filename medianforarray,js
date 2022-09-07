@@ -1,0 +1,27 @@
+let median =(nums)=>
+{
+    let m=0;
+    let n= nums.length;
+    nums.sort((a,b)=>a-b);
+
+    if (n%2==0)//even
+    {
+        let a = nums[(n/2)-1];
+        let b = nums[(n/2)+1];
+        // console.log(n/2)
+        // console.log((n/2)-1)
+        // console.log((n/2)+1)
+        // console.log(a)
+        // console.log(b)
+        m=(a+b)/2;
+
+    }
+    else
+    {
+        console.log(n/2)
+        m= nums[parseInt(n/2)]
+    }
+    return m;
+}
+console.log("Median using first approch: " + Median(...[3,5,4,4,1,1,2,3]))
+console.log("Median  using first approch: " + Median(...[1,2,3]))
