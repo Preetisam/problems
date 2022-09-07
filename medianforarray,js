@@ -1,4 +1,4 @@
-let median =(nums)=>
+let Median =(nums)=>
 {
     let m=0;
     let n= nums.length;
