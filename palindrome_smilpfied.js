@@ -3,7 +3,7 @@ let substringPalindrome =(str,l,r)=>
     str = str.slice(l,r);//this will return the substring
    
 
-    if(str==str,split("").reverse().join(""))
+    if(str==str.split("").reverse().join(""))
     {
         console.log("Palindrom");
 
